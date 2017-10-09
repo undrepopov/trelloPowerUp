@@ -1,0 +1,19 @@
+{
+  "name": "ChecklistPlus",
+  "details":"Custom Checklist PowerUp",
+  "icon": {
+    "url": "./assets/upgrd-checklist-logo.png"
+  },
+  "author": "Herzum",
+  "capabilities": [
+    "callback",
+    "card-buttons",
+    "card-detail-badges",
+    "show-settings"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./index.html"
+    }
+  }
+}

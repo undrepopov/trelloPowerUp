@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://trello.com/power-ups/power-up.css">
+    <style>
+		checkbox 
+		textarea { height: 30px; }
+		search 
+		button 
+    </style>
+    <script src="https://trello.com/power-ups/power-up.min.js"></script>
+  </head>
+  <body>
+  <form id="checklistitem">
+  
+      <label for="statusValue" id = "status">Item Status:</label>
+		<input type="checkbox">
+
+      <label for="taskValue" id = "task">Task:</label>
+		<input type="text">
+	
+       <label for="userValue" id = "user">User for Task:</label>
+		<input type="search">
+    
+      <label for="dateValue" id = "dueDate">Due Date:</label>
+		<input type="button" class = "button-link js-add-due-date">
+	  
+      <button type="submit" class="mod-primary">Save</button>
+	  <script src="./js/checklist.js"></script>
+	</form>
+  </body>
+</html>
+
