@@ -2,7 +2,7 @@
   "name": "ChecklistPlus",
   "details":"Custom Checklist PowerUp",
   "icon": {
-    "url": "https://undrepopov.github.io/trelloPowerUp/assets/upgrd-checklist-logo.png"
+    "url": "./assets/upgrd-checklist-logo.png"
   },
   "author": "Herzum",
   "capabilities": [
@@ -13,7 +13,7 @@
   ],
   "connectors": {
     "iframe": {
-      "url": "/index.html"
+      "url": "./index.html"
     }
   }
 }
