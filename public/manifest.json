@@ -7,9 +7,7 @@
   "author": "Herzum",
   "capabilities": [
     "callback",
-    "card-buttons",
-    "card-detail-badges",
-    "show-settings"
+    "card-buttons"
   ],
   "connectors": {
     "iframe": {
