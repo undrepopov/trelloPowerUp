@@ -5,7 +5,6 @@ var Promise = TrelloPowerUp.Promise;
 var BLACK_CHECKLIST_ICON = './assets/upgrd-checklist-logo.png';
 
 TrelloPowerUp.initialize({
-  tart adding handlers for your capabilities here!
 	 'card-buttons': function(t, options) {
 	 	return [{
 	 		icon: BLACK_CHECKLIST_ICON,
