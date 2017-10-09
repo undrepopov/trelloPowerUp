@@ -9,12 +9,12 @@ TrelloPowerUp.initialize({
 	 	return [{
 	 		icon: BLACK_CHECKLIST_ICON,
 	 		text: 'Custom Checklist Item',
-	 callback: function(t) {
+	callback: function(t) {
 	 return t.popup({
-	 title: "Checklist Details",
-	 url: 'checklist.html',
+		 title: "Checklist Details",
+		 url: 'checklist.html',
 	 });
-	 }
-	 	}];
+	}
+		}];
 	 },
 });
