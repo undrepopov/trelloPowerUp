@@ -15,7 +15,7 @@ window.checklistitem.addEventListener('submit', function(event){
 t.render(function(){
   return t.get('card', 'shared', 'checklistitem')
   .then(function(checklistitem){
-    window.task.value = checklistitem;
+    window.checklistitem.value = checklistitem;
   })
   .then(function(){
     t.sizeTo('#checklistitem').done();
