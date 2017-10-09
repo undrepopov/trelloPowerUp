@@ -1,7 +1,7 @@
 {
-  "name": "trello-power-up-skeleton",
+  "name": "Custom Checklist PowerUp",
   "version": "0.0.1",
-  "description": "A Power-Up skeleton to remix to start building your Power-Up!",
+  "description": "A Custom Checklist PowerUp",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -14,12 +14,6 @@
     "node": "6.10.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/trello-power-up-sekelton"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+    "url": "https://github.com/undrepopov/trelloPowerUp"
+  }
 }
