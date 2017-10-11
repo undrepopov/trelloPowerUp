@@ -12,7 +12,7 @@ TrelloPowerUp.initialize({
       callback: function(t) {
         return t.popup({
           title: "New Custom Checklist Plus Element",
-          url: 'checklist.html',
+          url: 'checklistplus.html',
         });
       }
 		}];
