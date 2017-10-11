@@ -1,19 +1,25 @@
 {
-  "name": "Custom Checklist PowerUp",
+  "name": "Checklist Plus",
   "version": "0.0.1",
-  "description": "A Custom Checklist PowerUp",
+  "description": "A checklist as custom field",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.15.2",
-    "cors": "^2.8.3"
+    "cors": "^2.8.1"
   },
   "engines": {
     "node": "6.10.x"
   },
   "repository": {
     "url": "https://github.com/undrepopov/trelloPowerUp"
-  }
+  },
+  "license": "Herzum",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }

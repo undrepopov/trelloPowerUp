@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD:manifest.json
   "name": "Checklist Plus PowerUp",
   "details": "Custom Checklist PowerUp",
+=======
+  "name": "Checklist Plus",
+  "details":"Add checklist items as a custom field",
+>>>>>>> 67c9d868fae057160b600123786961dc0dbb83ad:public/manifest.json
   "icon": {
     "url": "https://undrepopov.github.io/trelloPowerUp/assets/upgrd-checklist-logo_color.png"
   },

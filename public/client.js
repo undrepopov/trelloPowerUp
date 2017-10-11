@@ -2,19 +2,19 @@
 
 var Promise = TrelloPowerUp.Promise;
 
-var BLACK_CHECKLIST_ICON = 'https://undrepopov.github.io/trelloPowerUp/assets/upgrd-checklist-logo.png';
+var BLACK_ROCKET_ICON = 'https://undrepopov.github.io/trelloPowerUp/assets/upgrd-checklist-logo.png';
 
 TrelloPowerUp.initialize({
-	 'card-buttons': function(t, options) {
-	 	return [{
-	 		icon: BLACK_CHECKLIST_ICON,
-	 		text: 'Custom Checklist Item',
-	callback: function(t) {
-	 return t.popup({
-		 title: "Checklist Details",
-		 url: 'checklist.html',
-	 });
-	}
+	'card-buttons': function(t, options) {
+		return [{
+			icon: BLACK_ROCKET_ICON,
+			text: 'Custom Checklist Plus',
+      callback: function(t) {
+        return t.popup({
+          title: "New Custom Checklist Plus Element",
+          url: 'checklistplus.html',
+        });
+      }
 		}];
-	 },
+	},
 });
