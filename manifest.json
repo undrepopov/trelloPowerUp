@@ -1,6 +1,6 @@
 {
   "name": "Checklist Plus PowerUp",
-  "details":"Custom Checklist PowerUp",
+  "details": "Custom Checklist PowerUp",
   "icon": {
     "url": "https://undrepopov.github.io/trelloPowerUp/assets/upgrd-checklist-logo_color.png"
   },
@@ -11,7 +11,7 @@
   ],
   "connectors": {
     "iframe": {
-      "url": "./views/index.html"
+      "url": "./index.html"
     }
   }
 }
