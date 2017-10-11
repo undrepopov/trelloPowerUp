@@ -1,13 +1,24 @@
 {
   "name": "Checklist Plus PowerUp",
-  "details": "Custom Checklist PowerUp",
+  "description": "",
+  "details": "Custom Checklist PowerUp that displays checklist as a custom field",
   "icon": {
-    "url": "https://undrepopov.github.io/trelloPowerUp/assets/upgrd-checklist-logo_color.png"
+    "url": "./assets/upgrd-checklist-logo_color.png"
   },
   "author": "Herzum",
   "capabilities": [
+   "authorization-status",
+    "attachment-sections",
+    "attachment-thumbnail",
+    "board-buttons",
     "callback",
-    "card-buttons"
+    "card-badges",
+    "card-buttons",
+    "card-detail-badges",
+    "card-from-url",
+    "format-url",
+    "show-authorization",
+    "show-settings"
   ],
   "connectors": {
     "iframe": {
